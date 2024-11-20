@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive Playground with minimalist design. Explore color, text, and interactions.">
+    <title>Interactive Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Playground</h1>
+            
+        </header>
+
+        <main>
+            <div class="interaction-card">
+                <h2>Change Background</h2>
+                <div class="interaction">
+                    <button id="changeColor">Change Color</button>
+                    <input type="color" id="colorPicker" value="#ffffff" />
+                </div>
+            </div>
+
+            <div class="interaction-card">
+                <h2>Live Text Update</h2>
+                <div class="interaction">
+                    <input type="text" id="textChanger" placeholder="Type something..." />
+                    <p id="output">Your text will appear here.</p>
+                </div>
+            </div>
+
+            <div class="interaction-card">
+                <h2>Alert</h2>
+                <div class="interaction">
+                    <button id="showAlert">Click Me</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Designed by Sejal Bandil <3</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
